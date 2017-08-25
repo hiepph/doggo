@@ -1,0 +1,12 @@
+# data
+data/
+
+# python
+*.pyc
+__pycache__
+
+# jupyter
+jupyter/
+
+# model
+model/
