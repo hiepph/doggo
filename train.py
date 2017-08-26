@@ -2,7 +2,6 @@ import argparse
 import os
 from glob import glob
 
-import cv2
 import numpy as np
 from sklearn.datasets import load_files
 
