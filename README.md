@@ -21,8 +21,8 @@ Transfer learning from pre-trained model by Udacity's dog-project.
 ```sh
 mkdir data
 wget https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip
-unzip dogImages.zip
-mv dogImages.zip data/dogs
+unzip dogImages.zip && rm dogImages.zip
+mv dogImages data/dogs
 ```
 
 + Get bottleneck features:
