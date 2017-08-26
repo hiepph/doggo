@@ -27,7 +27,7 @@ mv dogImages.zip data/dogs
 
 ```sh
 wget https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogResnet50Data.npz
-mv DogResnet50Data data/
+mv DogResnet50Data.npz data/
 ```
 
 + Train model:
