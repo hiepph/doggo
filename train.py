@@ -13,7 +13,7 @@ from model import build_model
 
 
 ## Variables
-n_categories = 134
+n_categories = 133
 
 
 def load_dataset(path):
@@ -61,7 +61,7 @@ if __name__ == "__main__":
             optimizer='rmsprop',
             metrics=['accuracy'])
     checkpointer = ModelCheckpoint(
-            filepath='models/doggo-resnet50.hdf5',
+            filepath='model/doggo-resnet50.hdf5',
             save_best_only=True,
             verbose=1)
 
