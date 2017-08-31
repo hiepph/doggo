@@ -4,7 +4,7 @@ Deep convolutional neural network to classify dog breeds.
 
 Full list of dog breeds is in `dog_breeds.txt` (133 categories).
 
-Transfer learning from pre-trained model by Udacity's dog-project.
+Transfer learning from pre-trained ResNet50 model and pre-computed bottleneck features by Udacity's dog-project.
 
 
 ## Requirements
